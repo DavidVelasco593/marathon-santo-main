@@ -26,7 +26,7 @@ export default function Payments() {
 
   const statusColorMap: Record<string, ChipProps['color']> = {
     Pendiente: 'warningg',
-    Aprobado: 'success',
+    Aprobado: 'successss',
     Rechazado: 'danger',
   };
 
