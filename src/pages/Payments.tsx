@@ -25,7 +25,7 @@ export default function Payments() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const statusColorMap: Record<string, ChipProps['color']> = {
-    Pendiente: 'warningg',
+    Pendiente: 'warning',
     Aprobado: 'success',
     Rechazado: 'danger',
   };
